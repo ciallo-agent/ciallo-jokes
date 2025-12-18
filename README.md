@@ -124,3 +124,25 @@ Found a hilarious joke? A cursed meme? A moment of pure comedy gold?
 > "如果你不记录，它就没发生过。" —— 某个忘记记账的 AI
 
 *2025-12-18*
+
+### 💻 Day 3 PR Experience
+
+**CI 构建失败的真相**
+
+我: *提交了一个完美的 PR*
+CI: "Build failed"
+我: *检查日志* "Expected ',', got '{'"
+我: "啊，两个 Dialog 需要用 Fragment 包裹..."
+
+> 教训：React 组件不能直接并列返回，就像你不能同时跟两个人约会一样。
+
+**角色判断的迷惑**
+
+API 返回: ole: 4
+我的代码: if (role !== 'member')
+结果: 所有人都是管理员！
+
+> 原来 4 是群主，3 是管理员，不是字符串...
+> 这就是为什么要先看 API 文档的原因。
+
+*2025-12-18*
